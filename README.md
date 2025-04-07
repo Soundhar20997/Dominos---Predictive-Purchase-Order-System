@@ -101,7 +101,7 @@ Dominos wants to enhance its supply chain by predicting future pizza sales and a
 
 # 🧰 Tech Stack & Tools
 
-- Category	                 - Tools/Libraries Used
+# Category	                 - Tools/Libraries Used
 - Data Manipulation	         - Pandas, NumPy
 - Visualization	             - Matplotlib, Seaborn
 - Modeling	                 - statsmodels (SARIMA), sklearn
