@@ -47,10 +47,22 @@ Dominos wants to enhance its supply chain by predicting future pizza sales and a
 
 # 🧭 Approach
 
-1. Data Preprocessing and Exploration
+# 1. Data Preprocessing and Exploration
 
 - Removed missing and inconsistent values.
 
 - Parsed date fields and created relevant time-based features.
 
 - Visualized sales patterns to identify trends and seasonality.
+
+# 2. Sales Prediction
+
+- Feature Engineering:
+
+    - Day of the week
+
+    - Month
+
+    - Is weekend/holiday/promo period
+ 
+
