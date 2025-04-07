@@ -65,4 +65,20 @@ Dominos wants to enhance its supply chain by predicting future pizza sales and a
 
     - Is weekend/holiday/promo period
  
+- Modeling:
+
+    - Selected SARIMA as the final time series model based on performance.
+
+    - Trained the model on daily aggregated total_price data.
+
+- Evaluation:
+
+- Metrics used:
+
+    - MAE: 342.13
+
+    - RMSE: 572.05
+
+    - MAPE: 14.98%
+ 
 
