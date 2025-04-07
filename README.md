@@ -80,5 +80,32 @@ Dominos wants to enhance its supply chain by predicting future pizza sales and a
     - RMSE: 572.05
 
     - MAPE: 14.98%
- 
 
+# 3. Purchase Order Generation
+
+- Forecasted sales for the next 30 days using SARIMA.
+
+- Mapped pizzas to their ingredients using a cleaned ingredient dataset.
+
+- Calculated required ingredient quantities based on predicted pizza sales.
+
+- Generated a Purchase Order CSV summarizing ingredient needs.
+
+# 📊 Results
+
+✅ Accurate 30-day pizza sales forecasts.
+
+✅ MAPE: 14.98% (Acceptable for real-world applications).
+
+✅ A detailed purchase order CSV containing ingredient-wise quantities for the predicted period
+
+# 🧰 Tech Stack & Tools
+
+Category	          -       Tools/Libraries Used
+Data Manipulation	             Pandas, NumPy
+Visualization	                 Matplotlib, Seaborn
+Modeling	                     statsmodels (SARIMA), sklearn
+Forecasting	SARIMA
+Notebook & Scripts	            Jupyter Notebook, Python (.py)
+Files Processed	               Processed Pizza Sales, Ingredient Dataset
+Output	                       Sales Forecasts, Purchase Order (CSV)
